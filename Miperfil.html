@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - MediaWiki Simulado</title>
+    <link rel="stylesheet" href="style/MiPerfil.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="mw-page-base" class="noprint"></div>
+    <div id="mw-head-base" class="noprint"></div>
+
+    <div id="content" class="mw-body">
+        <a id="top"></a>
+        <div id="mw-head">
+            <div id="p-personal" role="navigation" class="vector-menu vector-menu-portal">
+                <ul id="p-personal-tools">
+                    <li id="pt-login"><a href="#">Iniciar sesión</a></li>
+                    <li id="pt-createaccount"><a href="#">Crear cuenta</a></li>
+                </ul>
+            </div>
+            <h1 id="firstHeading" class="firstHeading">Página Principal</h1>
+            <div id="siteSub">De MediaWiki simulado</div>
+        </div>
+        
+        <div id="mw-panel">
+            <div id="p-logo">
+                <a style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png');" href="/" title="Inicio"></a>
+            </div>
+            <div class="portal" id="p-navigation" role="navigation" aria-labelledby="p-navigation-label">
+                <h3 id="p-navigation-label" class="collapsible">Navegación</h3>
+                <div class="body">
+                    <ul>
+                        <li id="n-mainpage-description"><a href="#">Página Principal</a></li>
+                        <li id="n-portal"><a href="#">Portal de la comunidad</a></li>
+                        <li id="n-currentevents"><a href="#">Actualidad</a></li>
+                        <li id="n-recentchanges"><a href="#">Cambios recientes</a></li>
+                        <li id="n-randompage"><a href="#">Página aleatoria</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portal" id="p-tb" role="navigation" aria-labelledby="p-tb-label">
+                <h3 id="p-tb-label" class="collapsible">Herramientas</h3>
+                <div class="body">
+                    <ul>
+                        <li id="t-whatlinkshere"><a href="#">Lo que enlaza aquí</a></li>
+                        <li id="t-recentchangeslinked"><a href="#">Cambios en enlazadas</a></li>
+                        <li id="t-upload"><a href="#">Subir archivo</a></li>
+                        <li id="t-specialpages"><a href="#">Páginas especiales</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="bodyContent" class="mw-body-content">
+            <div id="siteNotice"></div>
+            <div id="contentSub">De MediaWiki simulado</div>
+            <div id="jump-to-nav" class="mw-jump">
+                Ir a: <a href="#mw-head">navegación</a>, <a href="#p-search">buscar</a>
+            </div>
+            <div id="toc" class="toc">
+                <div id="toctitle">
+                    <h2>Tabla de contenidos</h2>
+                </div>
+                <ul>
+                    <li class="toclevel-1 tocsection-1"><a href="#Sección_1"><span class="tocnumber">1</span> <span class="toctext">Sección 1</span></a></li>
+                    <li class="toclevel-1 tocsection-2"><a href="#Sección_2"><span class="tocnumber">2</span> <span class="toctext">Sección 2</span></a></li>
+                    <li class="toclevel-1 tocsection-3"><a href="#Sección_3"><span class="tocnumber">3</span> <span class="toctext">Sección 3</span></a></li>
+                    <li class="toclevel-1 tocsection-4"><a href="#Enlaces"><span class="tocnumber">4</span> <span class="toctext">Enlaces</span></a></li>
+                </ul>
+            </div>
+            <div id="mw-content-text">
+                <p>Bienvenido a la página principal de MediaWiki simulado.</p>
+                <p>Aquí puedes encontrar información sobre varios temas.</p>
+                <h2 id="Sección_1">Sección 1</h2>
+                <p>Detalles sobre la sección 1.</p>
+                <h3>Subsección 1.1</h3>
+                <p>Información adicional sobre la subsección 1.1.</p>
+                <h2 id="Sección_2">Sección 2</h2>
+                <p>Detalles sobre la sección 2.</p>
+                <h2 id="Sección_3">Sección 3</h2>
+                <p>Detalles sobre la sección 3.</p>
+                <h2 id="Enlaces">Enlaces</h2>
+                <ul>
+                    <li><a href="#">Enlace 1</a></li>
+                    <li><a href="#">Enlace 2</a></li>
+                </ul>
+                <h2>Imagen de ejemplo</h2>
+                <div class="thumb tright">
+                    <div class="thumbinner">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Ejemplo de imagen" />
+                        <div class="thumbcaption">Ejemplo de imagen</div>
+                    </div>
+                </div>
+                <h2>Cita de ejemplo</h2>
+                <blockquote>
+                    <p>"Esta es una cita de ejemplo para mostrar cómo se vería una cita en una página de MediaWiki."</p>
+                    <footer>- Fuente de la cita</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" role="contentinfo">
+        <ul id="footer-info">
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Acerca de MediaWiki simulado</a></li>
+            <li><a href="#">Términos de uso</a></li>
+        </ul>
+    </div>
+</body>
+</html>
