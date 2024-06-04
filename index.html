@@ -1,57 +1,103 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-<title>Wiki de la Universidad Don Bosco</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="style/wiki.css" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Sign Up Signin Form Template Example</title>
+  <link rel="stylesheet" href="Longin.css">
+
 </head>
 <body>
-<div class="wrap">
-  <p id="options"><a href="#">Iniciar Sesión</a><a href="#">Acerca de</a><a href="#">Contacto</a></p>
-  <h1><a href="#">Francisco De Asís</a></h1>
-  <ul id="menu">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Temas</a></li>
-    <li><a href="#">Búsqueda Avanzada</a></li>
-    <li><a href="Longin.html">Mi Wiki</a></li>
-    <li><a href="Miperfil.html">Mi Perfil</a></li>
-  </ul>
-  <div class="clear"></div>
-  <div id="left">
-    <h2><a href="#">Título de Ejemplo 1</a></h2>
-    <p>Este es un párrafo de ejemplo para la wiki de la Universidad Don Bosco. Puedes editar este contenido según tus necesidades.</p>
-    <h2><a href="#">Título de Ejemplo 2</a></h2>
-    <p>Este es un párrafo de ejemplo para la wiki de la Universidad Don Bosco. Puedes editar este contenido según tus necesidades.</p>
-    <h2><a href="#">Título de Ejemplo 3</a></h2>
-    <p>Este es un párrafo de ejemplo para la wiki de la Universidad Don Bosco. Puedes editar este contenido según tus necesidades.</p>
-    <h2><a href="#">Título de Ejemplo 4</a></h2>
-    <p>Este es un párrafo de ejemplo para la wiki de la Universidad Don Bosco. Puedes editar este contenido según tus necesidades.</p>
-    <h2><a href="#">Título de Ejemplo 5</a></h2>
-    <p>Este es un párrafo de ejemplo para la wiki de la Universidad Don Bosco. Puedes editar este contenido según tus necesidades.</p>
-  </div>
-  <div id="right">
-    <div class="box">
-      <h3>Acerca de la Wiki UDB</h3>
-      <p>Esta es una descripción breve acerca de la wiki de la Universidad Don Bosco. Puedes agregar más detalles aquí según sea necesario.</p>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+<body>
+    
+<div id="form">
+  <div class="container">
+    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
+      <div id="userform">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">REGÍSTRATE</a></li>
+          <li><a href="#login"  role="tab" data-toggle="tab">INICIAR SESIÓN</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade active in" id="signup">
+            <h2 class="text-uppercase text-center"> REGÍSTRATE GRATIS</h2>
+            <form id="signup">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label>Nombre<span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="form-group">
+                    <label> Apellidos <span class="req">*</span> </label>
+                    <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label> Correo<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Teléfono<span class="req">*</span> </label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Cotraseña<span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                REGÍSTRATE
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade in" id="login">
+            <h2 class="text-uppercase text-center"> Iniciar Sesión</h2>
+            <form id="login">
+              <div class="form-group">
+                <label> Correo<span class="req">*</span> </label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <label> Contraseña<span class="req">*</span> </label>
+                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="mrgn-30-top">
+                <button type="submit" class="btn btn-larger btn-block"/>
+                Iniciar Sesión
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- /.container --> 
+  
 </div>
-<div id="footer">
-  <div class="wrap">
-    <ul>
-      <li><a href="#">Temas</a></li>
-      <li><a href="#">Búsqueda Avanzada</a></li>
-      <li><a href="#">Mi Wiki</a></li>
-      <li><a href="#">Mi Perfil</a></li>
-    </ul>
-    <div id="col">
-      <p>Este es un párrafo adicional en el pie de página. Puedes agregar información relevante sobre la Universidad Don Bosco aquí.</p>
-      <p id="copyright">Diseño: <a href="http://www.solucija.com/">Luka Cvrk</a> &middot; Patrocinado por <a href="http://webpoint.wordpress.com/">B4Contact</a> &middot; Publicado bajo una <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Licencia Creative Commons</a></p>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
-</html>
+<!-- partial -->
 
-
+  <script  src="js/script.js"></script>
