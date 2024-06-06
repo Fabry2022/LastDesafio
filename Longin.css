@@ -4,7 +4,28 @@ body, html {
         overflow-x: hidden;
       font-family: 'Dosis', sans-serif;
   }
-  
+  /* Estilos para el contenedor del título y el logo */
+  .title-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #e6ecf1; /* Color de fondo */
+    padding: 20px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(37, 47, 134, 0.1); /* Sombra */
+  }
+
+  .title-logo-container h1 {
+    font-size: 32px; /* Tamaño del texto */
+    margin-right: 20px; /* Espacio entre el título y el logo */
+    color: #333; /* Color del texto */
+  }
+
+  .title-logo-container img {
+    border-radius: 50%; /* Borde redondeado para el logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
   btn {
       border-radius: 0
   
