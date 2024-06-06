@@ -275,3 +275,110 @@ body, html {
   .mrgn-30-top {
       margin-top: 30px
   }
+
+
+  /* Estilos para el pie de página */
+.footer-04 {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-04 .footer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-04 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-04 a:hover {
+    color: #ffdd57;
+    text-decoration: underline;
+  }
+  
+  .footer-04 .tagcloud a {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 20px;
+  }
+  
+  .footer-04 .tagcloud a:hover {
+    background: #ffdd57;
+    color: #333;
+  }
+  
+  .footer-04 .subscribe-form .form-control {
+    border: 0;
+    border-radius: 0;
+    background: #555;
+    color: #fff;
+  }
+  
+  .footer-04 .subscribe-form .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  .footer-04 .subscribe-form .submit {
+    background: #f07624;
+    border: 0;
+    color: #333;
+  }
+  
+  .footer-04 .subscribe-form .submit:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  .footer-04 .ftco-footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-04 .ftco-footer-social li {
+    margin-right: 10px;
+  }
+  
+  .footer-04 .ftco-footer-social a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #555;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .footer-04 .ftco-footer-social a:hover {
+    background: #ff7057;
+    color: #333;
+  }
+  
+  .footer-04 .border-top {
+    border-top: 1px solid #555;
+  }
+  
+  .footer-04 .copyright {
+    margin: 0;
+    color: #bbb;
+    font-size: 14px;
+  }
+  
+  .footer-04 .list-unstyled a {
+    color: #bbb;
+  }
+  
+  .footer-04 .list-unstyled a:hover {
+    color: #ff7057;
+  }
+  
