@@ -15,6 +15,16 @@ body, html {
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 15px rgba(37, 47, 134, 0.1); /* Sombra */
   }
+      /* Estilos adicionales para centrar el título y ajustes de espaciado */
+      .title-logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .title-logo-container h1 {
+        margin-right: 20px; /* Espacio entre el título y el logo */
+      }
 
   .title-logo-container h1 {
     font-size: 32px; /* Tamaño del texto */
@@ -277,7 +287,7 @@ body, html {
   }
 
 
-  /* Estilos para el pie de página */
+/* Estilos para el pie de página */
 .footer-04 {
     background: #333;
     color: #fff;
@@ -297,7 +307,7 @@ body, html {
   }
   
   .footer-04 a:hover {
-    color: #ffdd57;
+    color: #fa521f;
     text-decoration: underline;
   }
   
@@ -327,7 +337,7 @@ body, html {
   }
   
   .footer-04 .subscribe-form .submit {
-    background: #f07624;
+    background: #e46e1f;
     border: 0;
     color: #333;
   }
@@ -360,7 +370,7 @@ body, html {
   }
   
   .footer-04 .ftco-footer-social a:hover {
-    background: #ff7057;
+    background: #ffdd57;
     color: #333;
   }
   
@@ -379,6 +389,6 @@ body, html {
   }
   
   .footer-04 .list-unstyled a:hover {
-    color: #ff7057;
+    color: #ffdd57;
   }
   
