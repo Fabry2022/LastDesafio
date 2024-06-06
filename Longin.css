@@ -10,17 +10,18 @@ body, html {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    background-color: #e6ecf1; /* Color de fondo */
-    padding: 20px; /* Espaciado interior */
+    background-color: #eb8745; /* Color de fondo */
+    padding: 30px; /* Espaciado interior */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 0 15px rgba(37, 47, 134, 0.1); /* Sombra */
+    font-family: fantasy;
   }
       /* Estilos adicionales para centrar el título y ajustes de espaciado */
       .title-logo-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
       }
       .title-logo-container h1 {
         margin-right: 20px; /* Espacio entre el título y el logo */
