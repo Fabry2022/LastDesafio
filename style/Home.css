@@ -34,6 +34,16 @@ h1 a:hover { color: #CFA5D3; }
 	.box h3 { margin: 0 0 10px; }
 	.box p { margin: 0; }
 
+
+	.subject img {
+		float: left;
+		margin-right: 15px;
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
 #footer { clear: both; border-top: 5px solid #323232; background: #393939 url(.images/footerbg.gif) repeat-x bottom; color: #808080; padding: 10px 0; }
 	#footer ul { float: left; width: 200px; }
 	#footer li { padding: 5px 8px; background: url(.images/dot.gif) repeat-x bottom; }

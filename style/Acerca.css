@@ -1,0 +1,233 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .title-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .title-logo-container h1 {
+    margin: 0;
+  }
+  
+  header img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .about-us,
+  .mission-vision,
+  .values,
+  .team {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .about-us h2,
+  .mission-vision h3,
+  .values h3,
+  .team h3 {
+    margin-top: 0;
+  }
+  
+  .mission-vision {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mission,
+  .vision {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .mission:last-child,
+  .vision:last-child {
+    margin-right: 0;
+  }
+  
+  .values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values li {
+    margin-bottom: 10px;
+  }
+  
+  .values li strong {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .team .team-members {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .team .team-member {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .team .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .footer-04 {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-04 .footer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-04 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-04 a:hover {
+    color: #ffdd57;
+    text-decoration: underline;
+  }
+  
+  .footer-04 .tagcloud a {
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 20px;
+  }
+  
+  .footer-04 .tagcloud a:hover {
+    background: #ffdd57;
+    color: #333;
+  }
+  
+  .footer-04 .subscribe-form .form-control {
+    border: 0;
+    border-radius: 0;
+    background: #555;
+    color: #fff;
+  }
+  
+  .footer-04 .subscribe-form .form-control::placeholder {
+    color: #bbb;
+  }
+  
+  .footer-04 .subscribe-form .submit {
+    background: #ffdd57;
+    border: 0;
+    color: #333;
+  }
+  
+  .footer-04 .subscribe-form .submit:hover {
+    background: #fff;
+    color: #333;
+  }
+  
+  .footer-04 .ftco-footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-04 .ftco-footer-social li {
+    margin-right: 10px;
+  }
+  
+  .footer-04 .ftco-footer-social a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #555;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .footer-04 .ftco-footer-social a:hover {
+    background: #ffdd57;
+    color: #333;
+  }
+  
+  .footer-04 .ftco-footer-social a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .footer-04 .border-top {
+    border-top: 1px solid #555;
+  }
+  
+  .footer-04 .copyright {
+    margin: 0;
+    color: #bbb;
+    font-size: 14px;
+  }
+  
+  .footer-04 .list-unstyled a {
+    color: #bbb;
+  }
+  
+  .footer-04 .list-unstyled a:hover {
+    color: #ffdd57;
+  }
+  

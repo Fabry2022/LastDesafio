@@ -21,7 +21,7 @@ body, html {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
       }
       .title-logo-container h1 {
         margin-right: 20px; /* Espacio entre el título y el logo */
@@ -34,7 +34,7 @@ body, html {
   }
 
   .title-logo-container img {
-    border-radius: 50%; /* Borde redondeado para el logo */
+    border-radius: 10%; /* Borde redondeado para el logo */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
   }
   btn {

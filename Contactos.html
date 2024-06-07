@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INSTITUTO FRANCISCO ASIS - Contáctanos</title>
+  <link rel="stylesheet" href="style/Contactos.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="title-logo-container">
+        <h1>INSTITUTO FRANCISCO ASIS</h1>
+        <img src="logo.png" alt="Logo" width="90" height="90">
+      </div>
+      <nav>
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Acerca.html" class="active">Acerca de</a></li>
+            <li><a href="Miperfil.html">Perfil</a></li>
+            <li><a href="MiWiki.html">Mi Wiki</a></li>
+            <li><a href="Contactos.html">Contáctanos</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="contact-info">
+        <h2>Contáctanos</h2>
+        <p>Estamos aquí para ayudarte. Por favor, utiliza el formulario a continuación para enviarnos tus consultas, comentarios o sugerencias.</p>
+      </section>
+      <section class="contact-details">
+        <div class="contact-detail">
+          <h3>Dirección</h3>
+          <p> 216, San José Province, Vásquez de Coronado, Costa Rica</p>
+        </div>
+        <div class="contact-detail">
+          <h3>Teléfono</h3>
+          <p>+50647051354</p>
+        </div>
+        <div class="contact-detail">
+          <h3>Email</h3>
+          <p>contacto@institutofranciscoasis.edu</p>
+        </div>
+        <div class="contact-detail">
+          <h3>Horario de Atención</h3>
+          <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+        </div>
+      </section>
+      <section class="contact-form">
+        <h2>Envíanos un Mensaje</h2>
+        <form action="submit_form.php" method="POST">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section class="map">
+        <h2>Encuéntranos en el Mapa</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.405142557122!2d-83.97480638866983!3d9.983353273278261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e7aaf163017d%3A0x343a290c3db00087!2sEscuela%20de%20Medicina%20y%20Cirug%C3%ADa%20Veterinaria%20San%20Francisco%20de%20As%C3%ADs!5e0!3m2!1ses-419!2ssv!4v1717717581461!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </div>
+  </main>
+  <footer class="footer-04">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading"><a href="#" class="logo">INSTITUTO FRANCISCO ASIS</a></h2>
+          <p>Comprometidos con la excelencia en la educación y la formación integral de nuestros estudiantes.</p>
+          <a href="#">Leer más <span class="ion-ios-arrow-round-forward"></span></a>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">Programas</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-1 d-block">Pregrado</a></li>
+            <li><a href="#" class="py-1 d-block">Posgrado</a></li>
+            <li><a href="#" class="py-1 d-block">Educación Continua</a></li>
+            <li><a href="#" class="py-1 d-block">Investigación</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">Nube de Etiquetas</h2>
+          <div class="tagcloud">
+            <a href="#" class="tag-cloud-link">Educación</a>
+            <a href="#" class="tag-cloud-link">Ciencia</a>
+            <a href="#" class="tag-cloud-link">Tecnología</a>
+            <a href="#" class="tag-cloud-link">Innovación</a>
+            <a href="#" class="tag-cloud-link">Investigación</a>
+            <a href="#" class="tag-cloud-link">Cultura</a>
+            <a href="#" class="tag-cloud-link">Deportes</a>
+            <a href="#" class="tag-cloud-link">Arte</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+          <h2 class="footer-heading">Suscríbete</h2>
+          <form action="#" class="subscribe-form">
+            <div class="form-group d-flex">
+              <input type="text" class="form-control rounded-left" placeholder="Ingresa tu correo">
+              <button type="submit" class="form-control submit rounded-right"><span class="sr-only">Enviar</span><i class="ion-ios-send"></i></button>
+            </div>
+          </form>
+          <h2 class="footer-heading mt-5">Síguenos</h2>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate"><a href="https://x.com/home" data-toggle="tooltip" data-placement="top" title="Twitter"><img src="img/icons8-x-50.png" alt="Twitter" width="40" height="40"></a></li>
+            <li class="ftco-animate"><a href="https://www.facebook.com/" data-toggle="tooltip" data-placement="top" title="Facebook"><img src="img/icons8-facebook-96.png" alt="Facebook" width="40" height="40"></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" data-toggle="tooltip" data-placement="top" title="Instagram"><img src="img/icons8-instagram-96.png" alt="Instagram" width="40" height="40"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="w-100 mt-5 border-top py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-8">
+            <p class="copyright">
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este sitio está diseñado con <i class="ion-ios-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">TeamCode.com</a>
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-md-right">
+            <p class="mb-0 list-unstyled">
+              <a class="mr-md-3" href="#">Términos</a>
+              <a class="mr-md-3" href="#">Privacidad</a>
+              <a class="mr-md-3" href="#">Cumplimiento</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
