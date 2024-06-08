@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #e44b1d;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -17,6 +17,7 @@ header h1 {
     margin: 0;
     font-size: 2em;
 }
+
 
 nav ul {
     list-style: none;
