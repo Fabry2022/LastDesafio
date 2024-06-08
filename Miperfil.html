@@ -3,116 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal - MediaWiki Simulado</title>
-    <link rel="stylesheet" href="style/MiPerfil.css">
-    <script src="script.js" defer></script>
-
+    <title>Temas - Mi Wiki</title>
+    <link rel="stylesheet" href="style/Temas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div id="mw-page-base" class="noprint"></div>
-    <div id="mw-head-base" class="noprint"></div>
-
-    <div id="content" class="mw-body">
-        <a id="top"></a>
-        <div id="mw-head">
-            <div id="p-personal" role="navigation" class="vector-menu vector-menu-portal">
-                <ul id="p-personal-tools">
-                    <li id="pt-login"><a href="#">Iniciar sesión</a></li>
-                    <li id="pt-createaccount"><a href="#">Crear cuenta</a></li>
-                </ul>
-            </div>
-            <h1 id="firstHeading" class="firstHeading">Página Principal</h1>
-            <div id="siteSub">Del Instituto Francisco de Asís</div>
-        </div>
-        
-        <div id="mw-panel">
-            <div id="p-logo">
-                <a style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png');" href="/" title="Inicio"></a>
-            </div>
-            <div class="portal" id="p-navigation" role="navigation" aria-labelledby="p-navigation-label">
-                <h3 id="p-navigation-label" class="collapsible">Navegación</h3>
-                <div class="body">
-                    <ul>
-                        <li id="n-mainpage-description"><a href="#">Página Principal</a></li>
-                        <li id="n-portal"><a href="#">Portal de la comunidad</a></li>
-                        <li id="n-currentevents"><a href="#">Actualidad</a></li>
-                        <li id="n-recentchanges"><a href="#">Cambios recientes</a></li>
-                        <li id="n-randompage"><a href="#">Página aleatoria</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="portal" id="p-tb" role="navigation" aria-labelledby="p-tb-label">
-                <h3 id="p-tb-label" class="collapsible">Herramientas</h3>
-                <div class="body">
-                    <ul>
-                        <li id="t-whatlinkshere"><a href="#">Lo que enlaza aquí</a></li>
-                        <li id="t-recentchangeslinked"><a href="#">Cambios en enlazadas</a></li>
-                        <li id="t-upload"><a href="#">Subir archivo</a></li>
-                        <li id="t-specialpages"><a href="#">Páginas especiales</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div id="bodyContent" class="mw-body-content">
-            <div id="siteNotice">
-                <h2>Instituto Francisco de Asís</h2>
-                <p>El Instituto Francisco de Asís es una institución educativa dedicada a la formación integral de sus estudiantes. Ofrecemos una amplia variedad de programas académicos y extracurriculares para asegurar el desarrollo de habilidades y conocimientos esenciales.</p>
-                <p>Nuestro instituto se enfoca en la excelencia académica, la promoción de los valores humanos y el desarrollo de líderes del mañana. Contamos con un equipo de educadores comprometidos y una infraestructura moderna que facilita un ambiente de aprendizaje óptimo.</p>
-            </div>
-            <div id="contentSub">Del Instituto Francisco de Asís</div>
-            <div id="jump-to-nav" class="mw-jump">
-                Ir a: <a href="#mw-head">navegación</a>, <a href="#p-search">buscar</a>
-            </div>
-            <div id="toc" class="toc">
-                <div id="toctitle">
-                    <h2>Tabla de contenidos</h2>
-                </div>
+    <header>
+        <h1><i class="fas fa-book"></i> Temas de Mi Wiki</h1>
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="Acerca.html" class="active">Acerca de</a></li>
+                <li><a href="Miperfil.html">Perfil</a></li>
+                <li><a href="MiWiki.html">Mi Wiki</a></li>
+                <li><a href="Contactos.html">Contáctanos</a></li>
+              </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <section id="temas">
+            <h2><i class="fas fa-book-open"></i> Mi Perfil</h2>
+            <div class="tema">
+                <img src="img/perfil (2).jpg" alt="Matemáticas">
+                <h3>Información personal</h3>
+                
                 <ul>
-                    <li class="toclevel-1 tocsection-1"><a href="#Sección_1"><span class="tocnumber">1</span> <span class="toctext">Matemáticas</span></a></li>
-                    <li class="toclevel-1 tocsection-2"><a href="#Sección_2"><span class="tocnumber">2</span> <span class="toctext">Ciencias Naturales</span></a></li>
-                    <li class="toclevel-1 tocsection-3"><a href="#Sección_3"><span class="tocnumber">3</span> <span class="toctext">Historia</span></a></li>
-                    <li class="toclevel-1 tocsection-4"><a href="#Enlaces"><span class="tocnumber">4</span> <span class="toctext">Idiomas</span></a></li>
+                    <li><b>Nombre:</b>Sergio Olivar</li>
+                    <li><b>Correo:</b>sergioolivar2022@gmail.com </li>
+                    <li><b>Teléfono:</b> 2290-1022</li>
+                    <li><b>Carrera</b> Ing. en sistemas  </li>
+                    <li><b>Estadística:</b> Análisis de datos, probabilidad y métodos de recolección de datos.</li>
                 </ul>
             </div>
-            <div id="mw-content-text">
-                <p>Bienvenido a la página principal del Instituto Francisco de Asís, donde puedes encontrar información sobre diversas materias.</p>
-                <p>A continuación se muestran algunas secciones relacionadas con las materias:</p>
-                <h2 id="Sección_1">Matemáticas</h2>
-                <p>Detalles sobre el curso de Matemáticas.</p>
-                <h3>Geometría</h3>
-                <p>Información adicional sobre el curso de Geometría.</p>
-                <h2 id="Sección_2">Ciencias Naturales</h2>
-                <p>Detalles sobre el curso de Ciencias Naturales.</p>
-                <h2 id="Sección_3">Historia</h2>
-                <p>Detalles sobre el curso de Historia.</p>
-                <h2 id="Enlaces">Idiomas</h2>
+            <div class="tema">
+                <img src="img/ing.avif" alt="Ciencias Naturales">
+                <h3>Proyectos desarrollados</h3>
+                <p>Diseño de software: Los ingenieros de software diseñan programas informáticos, incluyendo la arquitectura, la interfaz de usuario y el flujo de datos.</p>
                 <ul>
-                    <li><a href="#">Inglés</a></li>
-                    <li><a href="#">Francés</a></li>
+                    <p>Sistema de Gestión de Biblioteca: Desarrollar un sistema que permita a los usuarios buscar, reservar y devolver libros en una biblioteca. Esto involucra diseño de bases de datos, interfaces de usuario y lógica de negocio.</p>
                 </ul>
-                <h2>Ejemplo de imagen</h2>
-                <div class="thumb tright">
-                    <div class="thumbinner">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Ejemplo de imagen" />
-                        <div class="thumbcaption">Ejemplo de imagen</div>
-                    </div>
-                </div>
-                <h2>Cita de ejemplo</h2>
-                <blockquote>
-                    <p>"Esta es una cita de ejemplo para mostrar cómo se vería una cita en una página de MediaWiki."</p>
-                    <footer>- Fuente de la cita</footer>
-                </blockquote>
             </div>
-        </div>
-    </div>
-
-    <div id="footer" role="contentinfo">
-        <ul id="footer-info">
-            <li><a href="#">Política de privacidad</a></li>
-            <li><a href="#">Acerca de MediaWiki simulado</a></li>
-            <li><a href="#">Términos de uso</a></li>
-        </ul>
-    </div>
+            <div class="tema">
+                <img src="img/ing1.jpg" alt="Literatura">
+                
+                
+            </div>
+           
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Mi Wiki. Todos los derechos reservados.</p>
+    </footer>
 </body>
-</html>
+
